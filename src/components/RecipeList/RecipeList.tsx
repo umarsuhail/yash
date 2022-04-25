@@ -1,9 +1,9 @@
 import React from 'react'
 import Tiles from '../Tiles/Tiles'
-import tile1 from '../..assets/images/tile1.png'
-import tile3 from '../..assets/images/tile3.png'
-import next from '../..assets/images/next.svg'
-import previous from '../..assets/images/previous.svg'
+import tile1 from '../../assets/images/tile1.png'
+import tile3 from '../../assets/images/tile3.png'
+import next from '../../assets/images/next.svg'
+import previous from '../../assets/images/previous.svg'
 
 import { Carousel, Container } from 'react-bootstrap'
 import './RecipeList.scss'

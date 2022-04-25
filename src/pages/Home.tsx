@@ -3,8 +3,8 @@ import { Col, Row } from 'react-bootstrap';
 import Button from '../components/Button';
 import Layout from '../components/Layout';
 import RecipeList from '../components/RecipeList/RecipeList';
-import homeImage from '..assets/images/dish.png';
-import leafImage from '..assets/images/leaf.png';
+import homeImage from '../assets/images/dish.png';
+import leafImage from '../assets/images/leaf.png';
 import './Home.scss';
 
 const Home = () => {
