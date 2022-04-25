@@ -5,7 +5,7 @@ import tile3 from '../../assets/images/tile3.png'
 import next from '../../assets/images/next.svg'
 import previous from '../../assets/images/previous.svg'
 
-import { Carousel, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import './RecipeList.scss'
 export default function RecipeList() {
     return (
