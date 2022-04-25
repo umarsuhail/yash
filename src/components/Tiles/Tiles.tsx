@@ -1,6 +1,6 @@
 import React from 'react'
 import './Tiles.scss'
-import superMarket from '../../images/superMarket.svg'
+import superMarket from '../..assets/images/superMarket.svg'
 
 interface props {
     image: string,
