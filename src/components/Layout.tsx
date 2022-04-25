@@ -1,6 +1,6 @@
 import React from 'react';
 import NavbarContainer from './Navbar/Navbar';
-import logo from '../images/logo.png';
+import logo from '../assets/images/logo.png';
 
 interface props {
   children: any
