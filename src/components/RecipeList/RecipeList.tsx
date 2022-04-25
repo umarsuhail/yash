@@ -16,17 +16,9 @@ export default function RecipeList() {
                 <img className="previous " src={previous}></img>
             </div>
             <Container>
-                <Carousel>
-                    <Carousel.Item>
-                        <Tiles image={tile1} content="Portobello Baked Eggs with avocado & bread" amount='€8'></Tiles>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Tiles image={tile3} content="Summery salmon, beetroot & spicy mix" amount='€15'></Tiles>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Tiles image={tile3} content="Portobello Baked Eggs with avocado & bread" amount='€8'></Tiles>
-                    </Carousel.Item>
-                </Carousel>
+                <Tiles image={tile1} content="Portobello Baked Eggs with avocado & bread" amount='€8'></Tiles>
+                <Tiles image={tile3} content="Summery salmon, beetroot & spicy mix" amount='€15'></Tiles>
+                <Tiles image={tile3} content="Portobello Baked Eggs with avocado & bread" amount='€8'></Tiles>
             </Container>
 
         </div>
